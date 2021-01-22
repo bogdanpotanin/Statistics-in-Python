@@ -11,7 +11,7 @@ import numpy as np
 from scipy.stats import t, chi2, f, norm
 
 # --------
-# Раздел №1. Распределение Хи-Квадрат
+# Часть №1. Распределение Хи-Квадрат
 # --------
 
 # Информация: https://docs.scipy.org/doc/scipy-0.15.1/reference/generated/scipy.stats.chi2.html
@@ -38,7 +38,7 @@ chi2.cdf(alpha, df = 2)                               # убеждаем что 
 1 - math.exp(-0.5 * alpha)                            # равняется функции распределения EXP(0.5)
 
 # --------
-# Раздел №2. Распределение Стьюдента
+# Часть №2. Распределение Стьюдента
 # --------
 
 # Информация: https://docs.scipy.org/doc/scipy/reference/generated/scipy.stats.t.html
@@ -64,7 +64,7 @@ t.cdf(alpha, df = 10000)                              # убедимся, что
 norm.cdf(alpha)                                       # обоих распредедений в этой точке очень близки
 
 # --------
-# Раздел №3. Распределение Фишера
+# Часть №3. Распределение Фишера
 # --------
 
 # Информация: https://docs.scipy.org/doc/scipy/reference/generated/scipy.stats.f.html
